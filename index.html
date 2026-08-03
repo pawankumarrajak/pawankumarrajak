@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pawan Kumar Rajak — Web Developer & Builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="progress"><span id="progress-fill"></span></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo">Pawan<span>.</span></a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#background">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" onclick="toggleTheme()">
+        <svg id="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"/></svg>
+        <svg id="icon-sun" viewBox="0 0 24 24" style="display:none"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a href="#contact" class="cta-btn">Let's talk</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="orb-wrap">
+    <div class="orb-core"></div>
+    <div class="orb-ring"></div>
+    <span class="orb-dot orb-dot-1"></span>
+    <span class="orb-dot orb-dot-2"></span>
+  </div>
+  <div class="wrap">
+    <div class="eyebrow-row"><span class="dot"></span><span>Open to internships &amp; freelance</span></div>
+    <h1 class="hero-headline display" style="position:relative;">
+      <span class="ring"></span>
+      WEB<br>DEVELOPER<br><span class="accent-line">&amp; BUILDER</span>
+    </h1>
+    <p class="hero-sub">I design and build fast, accessible web experiences. Currently a 3rd-year Computer Science &amp; Engineering student at Government Engineering College, West Champaran (GEC WC).</p>
+    <a href="#work" class="hero-link">View selected work ↗</a>
+
+    <div class="stats-row">
+      <div class="stat"><b>3rd</b><span>Year B.Tech CSE</span></div>
+      <div class="stat"><b>10+</b><span>Projects shipped</span></div>
+      <div class="stat"><b>GEC WC</b><span>West Champaran</span></div>
+      <div class="stat"><b>6+</b><span>Technologies</span></div>
+    </div>
+  </div>
+
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <div class="marquee-item">
+        <span>React</span><span class="star">★</span>
+        <span>JavaScript</span><span class="star">★</span>
+        <span>TypeScript</span><span class="star">★</span>
+        <span>Node.js</span><span class="star">★</span>
+        <span>MongoDB</span><span class="star">★</span>
+        <span>Tailwind CSS</span><span class="star">★</span>
+        <span>Git</span><span class="star">★</span>
+      </div>
+      <div class="marquee-item" aria-hidden="true">
+        <span>React</span><span class="star">★</span>
+        <span>JavaScript</span><span class="star">★</span>
+        <span>TypeScript</span><span class="star">★</span>
+        <span>Node.js</span><span class="star">★</span>
+        <span>MongoDB</span><span class="star">★</span>
+        <span>Tailwind CSS</span><span class="star">★</span>
+        <span>Git</span><span class="star">★</span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span class="mono">↓</span></div>
+</header>
+
+<section class="manifesto wrap">
+  <div class="label">The Manifesto</div>
+  <h2 class="display">Building for the web with intent, curiosity and craft.</h2>
+</section>
+
+<div class="scroll-dot"><div class="circle"></div></div>
+
+<section class="chapter" id="background">
+  <div class="wrap chapter-grid">
+    <span class="ghost-num">01</span>
+    <div class="chapter-head">
+      <div class="chapter-label">Chapter 01</div>
+      <h3 class="display">Background</h3>
+    </div>
+    <div class="chapter-body">
+      <p>I'm a third-year Computer Science student at GEC West Champaran, focused on the modern web. I started with plain HTML and CSS in my first year and have since grown into building full-stack applications with React and Node.</p>
+    </div>
+  </div>
+</section>
+
+<div class="scroll-dot"><div class="circle"></div></div>
+
+<section class="chapter" id="philosophy">
+  <div class="wrap chapter-grid">
+    <span class="ghost-num">02</span>
+    <div class="chapter-head">
+      <div class="chapter-label">Chapter 02</div>
+      <h3 class="display">Philosophy</h3>
+    </div>
+    <div class="chapter-body">
+      <p>Good software feels invisible. I obsess over the details users never notice — fast load times, clear typography, thoughtful motion — because craft is what separates a page from a product.</p>
+    </div>
+  </div>
+</section>
+
+<div class="scroll-dot"><div class="circle"></div></div>
+
+<section class="chapter" id="approach">
+  <div class="wrap chapter-grid">
+    <span class="ghost-num">03</span>
+    <div class="chapter-head">
+      <div class="chapter-label">Chapter 03</div>
+      <h3 class="display">Approach</h3>
+    </div>
+    <div class="chapter-body">
+      <p>I learn by shipping. Every project starts as a small idea, gets scoped tightly, and grows through iteration. I care about clean code, accessibility, and writing interfaces other developers enjoy working with.</p>
+    </div>
+  </div>
+</section>
+
+<section class="skills-section" id="skills">
+  <div class="wrap">
+    <div class="chapter-label">Chapter 04</div>
+    <h3 class="display" style="font-size:34px; margin-top:10px;">Skills</h3>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <h4>Languages</h4>
+        <div class="tag-list"><span>JavaScript</span><span>TypeScript</span><span>C++</span><span>Python</span></div>
+      </div>
+      <div class="skill-cat">
+        <h4>Frontend</h4>
+        <div class="tag-list"><span>React</span><span>Tailwind CSS</span><span>Framer Motion</span></div>
+      </div>
+      <div class="skill-cat">
+        <h4>Backend</h4>
+        <div class="tag-list"><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+      </div>
+      <div class="skill-cat">
+        <h4>Tools</h4>
+        <div class="tag-list"><span>Git &amp; GitHub</span><span>Figma</span><span>Vercel</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="location-strip wrap">
+  <p><b>West Champaran, Bihar · India</b> — always learning, always shipping.</p>
+</section>
+
+<div class="scroll-dot"><div class="circle"></div></div>
+
+<section class="work-header wrap" id="work">
+  <div class="work-header-row">
+    <div>
+      <div class="chapter-label" style="color:var(--muted); border-color:var(--border);">Selected Work</div>
+      <h2 class="display">Projects &amp;<br>experiments</h2>
+    </div>
+    <p class="side-note">A snapshot of things I've designed, built and broken while learning the craft.</p>
+  </div>
+</section>
+
+<section class="projects-section">
+  <div class="wrap">
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-media">
+          <img src="https://picsum.photos/seed/devconnect-pawan/900/650" alt="DevConnect project preview">
+          <a href="#" class="hover-arrow">↗</a>
+        </div>
+        <div class="project-meta-row"><span class="cat">Full-stack · Social</span><span class="year">2025</span></div>
+        <h3>DevConnect</h3>
+        <p class="desc">A social platform where developers share projects, follow peers, and discover new work. Built with React, Node, and MongoDB.</p>
+        <div class="tag-row"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">JWT</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media">
+          <img src="https://picsum.photos/seed/taskflow-pawan/900/650" alt="TaskFlow project preview">
+          <a href="#" class="hover-arrow">↗</a>
+        </div>
+        <div class="project-meta-row"><span class="cat">Frontend · Productivity</span><span class="year">2024</span></div>
+        <h3>TaskFlow</h3>
+        <p class="desc">A drag-and-drop Kanban board for planning sprints, with keyboard shortcuts and offline persistence.</p>
+        <div class="tag-row"><span class="tag">React</span><span class="tag">Tailwind</span><span class="tag">Zustand</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media">
+          <img src="https://picsum.photos/seed/mixology-pawan/900/650" alt="Mixology project preview">
+          <a href="#" class="hover-arrow">↗</a>
+        </div>
+        <div class="project-meta-row"><span class="cat">Frontend · Utility</span><span class="year">2024</span></div>
+        <h3>Mixology</h3>
+        <p class="desc">A cocktail recipe finder that searches by the ingredients you already have, with saved favorites.</p>
+        <div class="tag-row"><span class="tag">JavaScript</span><span class="tag">REST API</span><span class="tag">LocalStorage</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media">
+          <img src="https://picsum.photos/seed/weatherscope-pawan/900/650" alt="WeatherScope project preview">
+          <a href="#" class="hover-arrow">↗</a>
+        </div>
+        <div class="project-meta-row"><span class="cat">Frontend · Data</span><span class="year">2023</span></div>
+        <h3>WeatherScope</h3>
+        <p class="desc">A location-based weather dashboard with a 5-day forecast, map view, and saved cities.</p>
+        <div class="tag-row"><span class="tag">JavaScript</span><span class="tag">OpenWeather API</span><span class="tag">Chart.js</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="wrap">
+    <div class="contact-label">Get in touch</div>
+    <h2 class="display">Let's build<br>something.</h2>
+
+    <div class="contact-grid">
+      <div>
+        <p class="contact-intro">Have a project, an internship, or just want to say hi? Drop a message and I'll reply within a day.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="#"><span>GitHub</span><span class="val">@pawankumarrajak <span class="arrow">↗</span></span></a>
+          <a class="contact-link" href="#"><span>LinkedIn</span><span class="val">in/pawankumarrajak <span class="arrow">↗</span></span></a>
+          <a class="contact-link" href="mailto:kumarrajakpawan93@gmail.com"><span>Email</span><span class="val">kumarrajakpawan93@gmail.com <span class="arrow">↗</span></span></a>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <div class="form-row">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Doe" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="jane@company.com" required></div>
+        </div>
+        <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Project inquiry"></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell me about what you're building…" required></textarea></div>
+        <button type="submit" class="btn">Send message ➤</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <div class="footer-name">Pawan Kumar Rajak<span>.</span></div>
+    <div class="footer-copy">© 2026 Pawan Kumar Rajak. Designed &amp; built with care.</div>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="mailto:kumarrajakpawan93@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
